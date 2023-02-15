@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Read can ask for input and assign it to a variable
+
+read -p "Please enter your first and last name: " firstlast
+
+echo "Hello $firstlast. Thank you for your input!"
+

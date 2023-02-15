@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#we'r gonna create a variable suckers!!! 
+name="Trinity Blake"
+echo "Hi my name is $name!"
+
