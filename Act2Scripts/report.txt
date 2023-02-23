@@ -1,0 +1,146 @@
+Usage Report: Thu Feb 23 15:11:46 EST 2023
+
+CPU Usage Percentage
+top - 15:11:46 up 7 days, 21:56,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 111 total,   1 running, 109 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :    906.0 total,     70.5 free,    617.4 used,    218.2 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    138.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21172  11092   7744 S   0.0   1.2   0:18.97 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_flushwq
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq
+     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_trace
+     13 root      20   0       0      0      0 S   0.0   0.0   0:23.25 ksoftirqd/0
+     14 root      20   0       0      0      0 I   0.0   0.0   0:14.78 rcu_sched
+     15 root      rt   0       0      0      0 S   0.0   0.0   0:02.92 migration/0
+     17 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs
+     19 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 inet_frag_wq
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.23 khungtaskd
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper
+     23 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback
+     24 root      20   0       0      0      0 S   0.0   0.0   0:16.05 kcompactd0
+     25 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     26 root      39  19       0      0      0 S   0.0   0.0   0:04.22 khugepaged
+     72 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kintegrityd
+     73 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd
+     74 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_punt_bio
+     75 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 tpm_dev_wq
+     76 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff
+     77 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 md
+     78 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 edac-poller
+     79 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 hv_vmbus_con
+     80 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 hv_pri_chan
+     81 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 hv_sub_chan
+     82 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 devfreq_wq
+     83 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd
+     85 root       0 -20       0      0      0 I   0.0   0.0   0:07.45 kworker/0:1H-kblockd
+     87 root      20   0       0      0      0 S   0.0   0.0   0:03.17 kswapd0
+     88 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptfs-kthrea
+     90 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld
+     91 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nfit
+     92 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh_0
+     94 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nvme-wq
+     95 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nvme-reset-wq
+     96 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh_1
+     97 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 scsi_tmf_0
+     98 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 nvme-delete-wq
+     99 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 scsi_tmf_1
+    100 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 vfio-irqfd-clea
+    104 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mld
+    105 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipv6_addrconf
+    107 root      20   0       0      0      0 S   0.0   0.0   0:13.25 hv_balloon
+    115 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kstrp
+    118 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 zswap-shrink
+    119 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/u3:0
+    126 root      20   0       0      0      0 S   0.0   0.0   0:15.18 jbd2/sda1-8
+    127 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rsv-conver
+    167 root      19  -1  280832  51844  50440 S   0.0   5.6   0:34.00 systemd-journal
+    212 root      20   0    2496    508    444 S   0.0   0.1   0:00.32 bpfilter_umh
+    217 root      20   0    9816   4636   2728 S   0.0   0.5   0:00.80 systemd-udevd
+    247 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 cryptd
+    310 root      20   0    4380   3080   1752 S   0.0   0.3  10:59.61 hv_kvp_daemon
+    451 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kaluad
+    452 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kmpath_rdacd
+    453 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kmpathd
+    454 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kmpath_handlerd
+    455 root      rt   0  280336  18144   8212 S   0.0   2.0   0:44.86 multipathd
+    507 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sdc1-8
+    508 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rsv-conver
+    628 systemd+  20   0   27404   3416   2412 S   0.0   0.4   0:00.80 systemd-network
+    630 systemd+  20   0   24420   6628   2704 S   0.0   0.7   0:01.05 systemd-resolve
+    671 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sdb1-8
+    673 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rsv-conver
+    689 root      20   0    8548   2548   2268 S   0.0   0.3   0:00.95 cron
+    693 message+  20   0    7776   3796   2804 S   0.0   0.4   0:01.03 dbus-daemon
+    703 root      20   0   29880  11888   3820 S   0.0   1.3   0:00.09 networkd-dispat
+    705 root      20   0  236320   4848   1820 S   0.0   0.5   0:00.08 polkitd
+    707 syslog    20   0  224500   4316   2040 S   0.0   0.5   0:06.32 rsyslogd
+    708 _chrony   20   0    4828   2268   1944 S   0.0   0.2   2:40.32 chronyd
+    712 root      20   0  728164  28488    748 S   0.0   3.1   0:35.15 snapd
+    715 root      20   0   17472   4120   3180 S   0.0   0.4   0:00.85 systemd-logind
+    719 _chrony   20   0    4696    196      0 S   0.0   0.0   0:00.00 chronyd
+    720 root      20   0   28812  16292   4076 S   0.0   1.8   0:00.31 python3
+    723 daemon    20   0    3804   2080   1908 S   0.0   0.2   0:00.01 atd
+    742 root      20   0    7360   1764   1640 S   0.0   0.2   0:00.01 agetty
+    754 root      20   0    5836   1464   1348 S   0.0   0.2   0:00.18 agetty
+    763 root      20   0  318832   2348    364 S   0.0   0.3   0:00.08 ModemManager
+    769 root      20   0   12188   4436   3500 S   0.0   0.5   0:25.48 sshd
+    783 root      20   0  402308  26516   7016 S   0.0   2.9  11:01.41 python3
+    863 root      20   0  108128  11316   3656 S   0.0   1.2   0:00.08 unattended-upgr
+    880 mysql     20   0 1342520 399660      0 S   0.0  43.1  52:18.75 mysqld
+   3242 root      20   0       0      0      0 I   0.0   0.0   2:49.66 kworker/0:0-events
+   3922 root      20   0    6684   4056   2816 S   0.0   0.4   0:30.16 apache2
+  12421 root      20   0  395776   6156   1848 S   0.0   0.7   0:00.63 udisksd
+  56334 root      20   0       0      0      0 I   0.0   0.0   2:28.42 kworker/0:2-events
+  88607 www-data  20   0  753132   7264   2408 S   0.0   0.8   0:00.04 apache2
+  88608 www-data  20   0  752892  10128   2040 S   0.0   1.1   0:00.01 apache2
+  95465 root      20   0   13808   8680   7236 S   0.0   0.9   0:00.02 sshd
+  95467 root      20   0   13808   8676   7232 S   0.0   0.9   0:00.01 sshd
+  95470 tblake    20   0   19200   8796   7128 S   0.0   0.9   0:00.10 systemd
+  95471 tblake    20   0  171700   4272      0 S   0.0   0.5   0:00.00 (sd-pam)
+  95746 tblake    20   0   13948   5920   4448 S   0.0   0.6   0:00.00 sshd
+  95747 tblake    20   0   13948   5924   4340 S   0.0   0.6   0:01.17 sshd
+  95748 tblake    20   0   10300   5508   3572 S   0.0   0.6   0:00.29 bash
+  95754 tblake    20   0    5896   4244   3788 S   0.0   0.5   0:00.00 sftp-server
+  95821 root      20   0       0      0      0 I   0.0   0.0   0:00.48 kworker/u2:2-events_unbound
+  97136 root      20   0       0      0      0 I   0.0   0.0   0:00.20 kworker/u2:1-events_unbound
+  97276 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker/u2:3-events_power_efficient
+  97409 tblake    20   0   11012   3924   3256 T   0.0   0.4   0:00.00 top
+  97480 root      20   0       0      0      0 I   0.0   0.0   0:00.11 kworker/0:1-events
+  97523 tblake    20   0    8624   3176   2956 S   0.0   0.3   0:00.00 act2script4.sh
+  97525 tblake    20   0   10876   3624   3164 R   0.0   0.4   0:00.00 top
+
+Memory Usage Percentage
+              total        used        free      shared  buff/cache   available
+Mem:         927788      632216       72172        4424      223400      141448
+Swap:             0           0           0
+
+Disk Usage Percentage
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/root       30298176 3340516  26941276  12% /
+devtmpfs          459400       0    459400   0% /dev
+tmpfs             463892       0    463892   0% /dev/shm
+tmpfs              92780     992     91788   2% /run
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             463892       0    463892   0% /sys/fs/cgroup
+/dev/loop0         64896   64896         0 100% /snap/core20/1778
+/dev/loop1         64896   64896         0 100% /snap/core20/1822
+/dev/loop2         94080   94080         0 100% /snap/lxd/24061
+/dev/loop3         51072   51072         0 100% /snap/snapd/17950
+/dev/loop4         51072   51072         0 100% /snap/snapd/18357
+/dev/sda15        106858    6149    100709   6% /boot/efi
+/dev/sdc1       16337788      32  15482512   1% /home/tblake/DataDisk1
+/dev/sdb1        4044512      28   3818488   1% /mnt
+tmpfs              92776       0     92776   0% /run/user/1000
+
+End of Report
